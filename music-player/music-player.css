@@ -1,0 +1,56 @@
+body{
+    background: url("music.jpg");
+    background-size: 100%;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#plugins{
+    text-align: center;
+    padding: 70px;
+}
+#music{
+    
+    color: white;
+}
+table{
+    width: 700px;
+    border: none;
+    margin: auto;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+tr{
+    padding: 10px;
+    text-align: center;
+}
+.btn{
+    background: none;
+     margin: 10px;
+    width: 80px;
+    height: 30px;
+    /* background-color: teal; */
+    color: white;
+    /* border: teal; */
+    font-size: large;
+}
+.delbtn{
+    width:40px;
+    height: 30px;
+}
+.delbtn img{
+    width: 100%;
+    height: 100%;
+}
+.playbtn{
+    width:40px;
+    height: 30px;
+}
+.playbtn img{
+    width: 100%;
+    height: 100%;
+}

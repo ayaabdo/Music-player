@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="music-player.css">
+</head>
+<body>
+    <h1>Music Player</h1>
+    <section id="plugins">
+        <audio src="Cheap Thrills - Sia.mp3" controls></audio><br>
+        <button id = "play"    class = "btn">play</button>
+        <button id = "repeat"  class = "btn">repeat</button>
+        <button id = "shuffle" class = "btn">shuffle</button>
+        <input type="file" value="+" id = "add"  accept=".mp3"/>​
+        <table>
+            <tbody id = 'music'>
+                <tr id = "0">
+                    <td>Cheap Thrills - Sia.mp3</td>
+                    <td>
+                        <button class="delbtn"><img src="delete.jpg" /></button>
+                        <button class="playbtn"><img src="resume.jpg" /></button>
+                    </td>       
+                </tr>  
+                <tr id = "1">          
+                  <td>Confident- Ballerina.mp3</td>
+                  <td>
+                      <button class="delbtn"><img src="delete.jpg" /></button>
+                     <button class="playbtn"><img src="resume.jpg" /></button>
+                 </td>
+                </tr>
+                <tr id = "2">
+                    <td>Dalida -Le Temps des Fleurs.mp3</td>
+                    <td>
+                        <button class="delbtn"><img src="delete.jpg" /></button>
+                        <button class="playbtn"><img src="resume.jpg" /></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <script src="music-player.js"></script>
+</body>
+</html>
